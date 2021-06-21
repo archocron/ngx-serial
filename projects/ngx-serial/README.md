@@ -29,14 +29,17 @@ Data Handler will receive read data, so here you can implement your read logic. 
     $ }
 
 To request permissions to use the COM port and connect , use the method connect(). 
+
     $ this.serial.connect(); 
 
 To use connect() a user interaction is required, for example call this method when the user click a button.
 
 To send data to the serial device use sendData(), this method accept a string as paremeter.
+
     $ this.serial.sendData("Data\r\n");
 
 To free resources execute the method close()
+
     $ this.serial.close();
 
 ## Broswer support
