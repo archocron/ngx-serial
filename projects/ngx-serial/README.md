@@ -8,6 +8,8 @@ First, install the package using npm install
 
     $ npm install ngx-serial
 
+## Use
+
 You have available ngx-serial on your project, add the following import in your component.
 
     $ import { NgxSerial } from 'ngx-serial';
