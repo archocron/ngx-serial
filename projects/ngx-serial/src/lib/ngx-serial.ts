@@ -20,13 +20,16 @@ export class NgxSerial {
     }
     
 }*/
-constructor(readFunction:Function) {
+constructor(readFunction:Function, options?:any) {
     this.readFunction = readFunction;
+    if(options)
+       this.options = options;
        
 }
  public  async sendData(data: string) {
     await this.writer.write(data);
 }
+
 
  
  
