@@ -1,10 +1,6 @@
 {
   "name": "ngx-serial",
-  "version": "1.0.1",
-  "peerDependencies": {
-    "@angular/common": "^12.0.5",
-    "@angular/core": "^12.0.5"
-  },
+  "version": "1.0.2",
   "dependencies": {
     "tslib": "^2.1.0"
   },
