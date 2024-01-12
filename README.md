@@ -89,3 +89,5 @@ connect() and close() accept a callback function returning the serial port. Can 
 ## Broswer support
 At this moment (21/06/2021) Chrome, Opera and Edge are supporting Web Serial API
 
+#1.0.2
+This version includes upgrade to Angular 15
